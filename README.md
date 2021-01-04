@@ -2,6 +2,10 @@
 
 Flutter example project for appium-flutter-driver.
 
-To run test, cd to test_driver folder and run:
-
-dart 
+Must have flutter, dark and android sdk
+To run android test:
+Start emulator then run from repo root:
+```
+pub get
+dart test/widget_test. dart
+```
